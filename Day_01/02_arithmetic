@@ -1,0 +1,55 @@
+# Addition
+a = 10
+b = 5
+sum_result = a + b  # 15
+
+# Subtraction
+sub_result = a - b  # 5
+
+# Multiplication
+mul_result = a * b  # 50
+
+# Division
+div_result = a / b  # 2.0
+
+# Floor Division (integer division)
+floor_div_result = a // b  # 2
+
+# Modulus (remainder)
+mod_result = a % b  # 0
+
+# Exponentiation
+exp_result = a ** b  # 100000
+
+print("Addition:", sum_result)
+print("Subtraction:", sub_result)
+print("Multiplication:", mul_result)
+print("Division:", div_result)
+print("Floor Division:", floor_div_result)
+print("Modulus:", mod_result)
+print("Exponentiation:", exp_result)
+
+
+# Augmented Assignment Operators
+x = 10
+
+x += 5    # x = x + 5, now x is 15
+print("After x += 5:", x)
+
+x -= 3    # x = x - 3, now x is 12
+print("After x -= 3:", x)
+
+x *= 2    # x = x * 2, now x is 24
+print("After x *= 2:", x)
+
+x /= 4    # x = x / 4, now x is 6.0
+print("After x /= 4:", x)
+
+x //= 2   # x = x // 2, now x is 3.0
+print("After x //= 2:", x)
+
+x %= 2    # x = x % 2, now x is 1.0
+print("After x %= 2:", x)
+
+x **= 3   # x = x ** 3, now x is 1.0
+print("After x **= 3:", x)

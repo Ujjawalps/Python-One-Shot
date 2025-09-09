@@ -1,0 +1,29 @@
+# Basic Logical Operators in Python
+
+# AND operator
+a = True
+b = False
+print("a and b:", a and b)  # False
+
+# OR operator
+print("a or b:", a or b)    # True
+
+# NOT operator
+print("not a:", not a)      # False
+
+
+
+
+mood = input("How are you feeling today? (happy/sad/energetic/tired): ").strip().lower()
+energy = input("Do you feel energetic? (yes/no): ").strip().lower() == "yes"
+
+if mood == "happy" and energy:
+    print("🎉🕺 Time for a dance party! Put on your favorite song and bust a move!")
+elif mood == "sad" and not energy:
+    print("📚☕ Maybe curl up with a good book and a warm drink. Self-care is important!")
+elif mood == "energetic" or energy:
+    print("🏃‍♂️🌳 Go for a jog or explore a new hobby. Channel that energy!")
+elif mood == "tired":
+    print("😴🛌 Take a power nap or relax with some gentle music.")
+else:
+    print("🤔 Try something new—draw, write, or code a mini project. Creativity awaits!")
